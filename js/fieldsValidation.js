@@ -20,7 +20,7 @@ export function isThereSpecialCharacter(passwordInput){
 
 export function validatePasswordConfirmation(PasswordInputConf, PasswordInput){
     if (PasswordInputConf.value !== PasswordInput.value){
-        setErrorFor(PasswordInputConf, 'A confirmação está divergente da senha digitada no campo acima')
+        setErrorFor(PasswordInputConf, 'As senhas estão divergentes')
     }
 }
 
